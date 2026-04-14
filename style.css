@@ -1,0 +1,15 @@
+#xtoys_settings .inline-drawer-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#xtoys_settings label {
+    font-size: 0.9em;
+}
+
+#xtoys_test_btn, #xtoys_stop_btn {
+    flex: 1;
+    font-size: 0.85em;
+}

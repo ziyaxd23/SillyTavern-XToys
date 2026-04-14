@@ -43,7 +43,7 @@ async function sendToXToys(intensity) {
         await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ intensity: clampedIntensity }),
+            body: JSON.stringify({ action: 'vibrate', intensity: clampedIntensity }),
         });
         console.log(`[XToys] 发送强度: ${clampedIntensity}`);
     } catch (e) {
